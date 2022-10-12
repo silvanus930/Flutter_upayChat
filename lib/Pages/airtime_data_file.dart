@@ -549,27 +549,27 @@ class AirtimeDataFileState extends State<AirtimeDataFile> {
                     ),
                   )
                 : _renderOptions(),
-            Container(
-              width: double.infinity,
-              margin: EdgeInsets.only(top: 30, left: 15, right: 15),
-              child: Container(
-                child: FlatButton(
-                  textColor: Colors.white,
-                  highlightColor: MyColors.base_green_color_20,
-                  splashColor: MyColors.base_green_color_20,
-                  color: MyColors.base_green_color,
-                  disabledColor: MyColors.base_green_color,
-                  onPressed: completePayment,
-                  child: Text(
-                    'Buy',
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
-              ),
-            ),
+            // Container(
+            //   width: double.infinity,
+            //   margin: EdgeInsets.only(top: 30, left: 15, right: 15),
+            //   child: Container(
+            //     child: FlatButton(
+            //       textColor: Colors.white,
+            //       highlightColor: MyColors.base_green_color_20,
+            //       splashColor: MyColors.base_green_color_20,
+            //       color: MyColors.base_green_color,
+            //       disabledColor: MyColors.base_green_color,
+            //       onPressed: completePayment,
+            //       child: Text(
+            //         'Buy',
+            //         style: TextStyle(
+            //           fontSize: 18,
+            //           color: Colors.white,
+            //         ),
+            //       ),
+            //     ),
+            //   ),
+            // ),
           ],
         ),
       ),

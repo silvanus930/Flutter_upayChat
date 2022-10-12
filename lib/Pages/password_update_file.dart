@@ -155,37 +155,37 @@ class PasswordUpdateFileState extends State<PasswordUpdateFile> {
               ),
             ),
           ),
-          Container(
-            margin: EdgeInsets.only(top: 15),
-            child: FlatButton(
-              textColor: Colors.white,
-              highlightColor: MyColors.base_green_color_20,
-              padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-              splashColor: MyColors.base_green_color_20,
-              color: MyColors.base_green_color,
-              disabledColor: MyColors.base_green_color,
-              shape: CustomUiWidgets.basicGreenButtonShape(),
-              onPressed: () {
-                String password = passwordController.text;
-                String confirmpassword = confirmpasswordController.text;
-                if (password.isEmpty || password == null || password.length < 6) {
-                  CommonUtils.errorToast(context, 'please enter correct password');
-                } else if (password != confirmpassword) {
-                  CommonUtils.errorToast(context, 'Password not matched');
-                } else {
-                  _updatemypassword();
-                }
-              },
-              child: Text(
-                'Change Password',
-                style: TextStyle(
-                  fontFamily: 'Doomsday',
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
-              ),
-            ),
-          ),
+          // Container(
+          //   margin: EdgeInsets.only(top: 15),
+          //   child: FlatButton(
+          //     textColor: Colors.white,
+          //     highlightColor: MyColors.base_green_color_20,
+          //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+          //     splashColor: MyColors.base_green_color_20,
+          //     color: MyColors.base_green_color,
+          //     disabledColor: MyColors.base_green_color,
+          //     shape: CustomUiWidgets.basicGreenButtonShape(),
+          //     onPressed: () {
+          //       String password = passwordController.text;
+          //       String confirmpassword = confirmpasswordController.text;
+          //       if (password.isEmpty || password == null || password.length < 6) {
+          //         CommonUtils.errorToast(context, 'please enter correct password');
+          //       } else if (password != confirmpassword) {
+          //         CommonUtils.errorToast(context, 'Password not matched');
+          //       } else {
+          //         _updatemypassword();
+          //       }
+          //     },
+          //     child: Text(
+          //       'Change Password',
+          //       style: TextStyle(
+          //         fontFamily: 'Doomsday',
+          //         fontSize: 20,
+          //         color: Colors.white,
+          //       ),
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );

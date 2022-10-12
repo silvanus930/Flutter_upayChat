@@ -153,32 +153,32 @@ class PendingFileState extends State<PendingFile> {
                                                       child: Container(
                                                         width: double.infinity,
                                                         margin: EdgeInsets.only(left: 4, right: 4),
-                                                        child: FlatButton(
-                                                          textColor: Colors.white,
-                                                          highlightColor: MyColors.base_green_color_20,
-                                                          padding: EdgeInsets.only(top: 4, bottom: 4),
-                                                          splashColor: MyColors.base_green_color,
-                                                          color: MyColors.base_green_color_20,
-                                                          disabledColor: MyColors.base_green_color_20,
-                                                          shape: RoundedRectangleBorder(
-                                                            side: BorderSide(
-                                                              color: MyColors.light_grey_divider_color,
-                                                              width: 2,
-                                                            ),
-                                                            borderRadius: BorderRadius.circular(8.0),
-                                                          ),
-                                                          onPressed: () {
-                                                            _callApiForCancel(pendingRequest[index], index);
-                                                          },
-                                                          child: Text(
-                                                            'Cancel',
-                                                            style: TextStyle(
-                                                              fontFamily: 'Doomsday',
-                                                              fontSize: 14,
-                                                              color: MyColors.base_green_color,
-                                                            ),
-                                                          ),
-                                                        ),
+                                                        // child: FlatButton(
+                                                        //   textColor: Colors.white,
+                                                        //   highlightColor: MyColors.base_green_color_20,
+                                                        //   padding: EdgeInsets.only(top: 4, bottom: 4),
+                                                        //   splashColor: MyColors.base_green_color,
+                                                        //   color: MyColors.base_green_color_20,
+                                                        //   disabledColor: MyColors.base_green_color_20,
+                                                        //   shape: RoundedRectangleBorder(
+                                                        //     side: BorderSide(
+                                                        //       color: MyColors.light_grey_divider_color,
+                                                        //       width: 2,
+                                                        //     ),
+                                                        //     borderRadius: BorderRadius.circular(8.0),
+                                                        //   ),
+                                                        //   onPressed: () {
+                                                        //     _callApiForCancel(pendingRequest[index], index);
+                                                        //   },
+                                                        //   child: Text(
+                                                        //     'Cancel',
+                                                        //     style: TextStyle(
+                                                        //       fontFamily: 'Doomsday',
+                                                        //       fontSize: 14,
+                                                        //       color: MyColors.base_green_color,
+                                                        //     ),
+                                                        //   ),
+                                                        // ),
                                                       ),
                                                     ),
                                                   pendingRequest[index].fromuser_id != userId
@@ -186,29 +186,29 @@ class PendingFileState extends State<PendingFile> {
                                                           child: Container(
                                                             width: double.infinity,
                                                             margin: EdgeInsets.only(left: 4, right: 4),
-                                                            child: FlatButton(
-                                                              textColor: Colors.white,
-                                                              highlightColor: MyColors.base_green_color_20,
-                                                              padding: EdgeInsets.only(top: 4, bottom: 4),
-                                                              splashColor: MyColors.base_green_color_20,
-                                                              color: MyColors.base_green_color,
-                                                              disabledColor: MyColors.base_green_color,
-                                                              shape: RoundedRectangleBorder(
-                                                                side: BorderSide(color: MyColors.base_green_color),
-                                                                borderRadius: BorderRadius.circular(8.0),
-                                                              ),
-                                                              onPressed: () {
-                                                                _openPrivacyDialogBox(pendingRequest[index], index);
-                                                              },
-                                                              child: Text(
-                                                                'Pay',
-                                                                style: TextStyle(
-                                                                  fontFamily: 'Doomsday',
-                                                                  fontSize: 14,
-                                                                  color: Colors.white,
-                                                                ),
-                                                              ),
-                                                            ),
+                                                            // child: FlatButton(
+                                                            //   textColor: Colors.white,
+                                                            //   highlightColor: MyColors.base_green_color_20,
+                                                            //   padding: EdgeInsets.only(top: 4, bottom: 4),
+                                                            //   splashColor: MyColors.base_green_color_20,
+                                                            //   color: MyColors.base_green_color,
+                                                            //   disabledColor: MyColors.base_green_color,
+                                                            //   shape: RoundedRectangleBorder(
+                                                            //     side: BorderSide(color: MyColors.base_green_color),
+                                                            //     borderRadius: BorderRadius.circular(8.0),
+                                                            //   ),
+                                                            //   onPressed: () {
+                                                            //     _openPrivacyDialogBox(pendingRequest[index], index);
+                                                            //   },
+                                                            //   child: Text(
+                                                            //     'Pay',
+                                                            //     style: TextStyle(
+                                                            //       fontFamily: 'Doomsday',
+                                                            //       fontSize: 14,
+                                                            //       color: Colors.white,
+                                                            //     ),
+                                                            //   ),
+                                                            // ),
                                                           ),
                                                         )
                                                       : Container()

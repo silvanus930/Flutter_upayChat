@@ -584,27 +584,27 @@ class PayBillsFileState extends State<PayBillsFile> {
                   _renderCustomFields(selectedBill),
                   _renderOptions(),
                   _renderEditAmount(),
-                  Container(
-                    width: double.infinity,
-                    child: Container(
-                      child: FlatButton(
-                        textColor: Colors.white,
-                        highlightColor: MyColors.base_green_color_20,
-                        splashColor: MyColors.base_green_color_20,
-                        color: MyColors.base_green_color,
-                        disabledColor: MyColors.base_green_color,
-                        onPressed: continuePayment,
-                        child: Text(
-                          'Continue',
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.white,
-                            fontFamily: 'Doomsday',
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
+                  // Container(
+                  //   width: double.infinity,
+                  //   child: Container(
+                  //     child: FlatButton(
+                  //       textColor: Colors.white,
+                  //       highlightColor: MyColors.base_green_color_20,
+                  //       splashColor: MyColors.base_green_color_20,
+                  //       color: MyColors.base_green_color,
+                  //       disabledColor: MyColors.base_green_color,
+                  //       onPressed: continuePayment,
+                  //       child: Text(
+                  //         'Continue',
+                  //         style: TextStyle(
+                  //           fontSize: 18,
+                  //           color: Colors.white,
+                  //           fontFamily: 'Doomsday',
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             )
@@ -663,27 +663,27 @@ class PayBillsFileState extends State<PayBillsFile> {
                     ),
                     onCreditCardModelChange: onCreditCardModelChange,
                   ),
-                  Container(
-                    width: double.infinity,
-                    margin: EdgeInsets.only(top: 30, left: 15, right: 15),
-                    child: Container(
-                      child: FlatButton(
-                        textColor: Colors.white,
-                        highlightColor: MyColors.base_green_color_20,
-                        splashColor: MyColors.base_green_color_20,
-                        color: MyColors.base_green_color,
-                        disabledColor: MyColors.base_green_color,
-                        onPressed: completePayment,
-                        child: Text(
-                          'Buy ' + StringMessage.naira + amountController.text,
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
+                  // Container(
+                  //   width: double.infinity,
+                  //   margin: EdgeInsets.only(top: 30, left: 15, right: 15),
+                  //   child: Container(
+                  //     child: FlatButton(
+                  //       textColor: Colors.white,
+                  //       highlightColor: MyColors.base_green_color_20,
+                  //       splashColor: MyColors.base_green_color_20,
+                  //       color: MyColors.base_green_color,
+                  //       disabledColor: MyColors.base_green_color,
+                  //       onPressed: completePayment,
+                  //       child: Text(
+                  //         'Buy ' + StringMessage.naira + amountController.text,
+                  //         style: TextStyle(
+                  //           fontSize: 18,
+                  //           color: Colors.white,
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ),

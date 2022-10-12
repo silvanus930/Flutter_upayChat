@@ -76,27 +76,27 @@ class EditProfileState extends State<EditProfile> with TickerProviderStateMixin,
           textAlign: TextAlign.center,
         ),
         actions: [
-          FlatButton(
-            textColor: Colors.white,
-            highlightColor: MyColors.base_green_color_20,
-            padding: EdgeInsets.only(top: 15, bottom: 15),
-            splashColor: MyColors.base_green_color_20,
-            color: MyColors.base_green_color,
-            disabledColor: MyColors.base_green_color,
-            shape: CircleBorder(side: BorderSide(color: MyColors.base_green_color)),
-            onPressed: () {
-              checkemailorusernameempty(context, firstNameController, lastNameController, birthday, _image);
-            },
-            child: Text(
-              'Done',
-              style: TextStyle(
-                fontFamily: 'Doomsday',
-                fontSize: 20,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
+          // FlatButton(
+          //   textColor: Colors.white,
+          //   highlightColor: MyColors.base_green_color_20,
+          //   padding: EdgeInsets.only(top: 15, bottom: 15),
+          //   splashColor: MyColors.base_green_color_20,
+          //   color: MyColors.base_green_color,
+          //   disabledColor: MyColors.base_green_color,
+          //   shape: CircleBorder(side: BorderSide(color: MyColors.base_green_color)),
+          //   onPressed: () {
+          //     checkemailorusernameempty(context, firstNameController, lastNameController, birthday, _image);
+          //   },
+          //   child: Text(
+          //     'Done',
+          //     style: TextStyle(
+          //       fontFamily: 'Doomsday',
+          //       fontSize: 20,
+          //       color: Colors.white,
+          //       fontWeight: FontWeight.bold,
+          //     ),
+          //   ),
+          // ),
         ],
       ),
       body: Container(

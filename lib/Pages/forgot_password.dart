@@ -86,29 +86,29 @@ class ForgotPasswordState extends State<ForgotPassword> {
               hintText: 'Mobile Number',
             ),
           ),
-          Container(
-            margin: EdgeInsets.only(top: 15),
-            child: FlatButton(
-              textColor: Colors.white,
-              highlightColor: MyColors.base_green_color_20,
-              padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-              splashColor: MyColors.base_green_color_20,
-              color: MyColors.base_green_color,
-              disabledColor: MyColors.base_green_color,
-              shape: CustomUiWidgets.basicGreenButtonShape(),
-              onPressed: () {
-                _sendCodeAndCheck();
-              },
-              child: Text(
-                'Continue',
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                  fontFamily: 'Doomsday',
-                ),
-              ),
-            ),
-          ),
+          // Container(
+          //   margin: EdgeInsets.only(top: 15),
+          //   child: FlatButton(
+          //     textColor: Colors.white,
+          //     highlightColor: MyColors.base_green_color_20,
+          //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+          //     splashColor: MyColors.base_green_color_20,
+          //     color: MyColors.base_green_color,
+          //     disabledColor: MyColors.base_green_color,
+          //     shape: CustomUiWidgets.basicGreenButtonShape(),
+          //     onPressed: () {
+          //       _sendCodeAndCheck();
+          //     },
+          //     child: Text(
+          //       'Continue',
+          //       style: TextStyle(
+          //         fontSize: 20,
+          //         color: Colors.white,
+          //         fontFamily: 'Doomsday',
+          //       ),
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );
@@ -186,31 +186,32 @@ class ForgotPasswordState extends State<ForgotPassword> {
             ),
           ),
 
-          Container(
-            margin: EdgeInsets.only(top: 15),
-            child: FlatButton(
-              textColor: Colors.white,
-              highlightColor: MyColors.base_green_color_20,
-              padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-              splashColor: MyColors.base_green_color_20,
-              color: MyColors.base_green_color,
-              disabledColor: MyColors.base_green_color,
-              shape: CustomUiWidgets.basicGreenButtonShape(),
-              onPressed: () {
-                String pin = pinEditingController.text;
+          // Container(
+          //   margin: EdgeInsets.only(top: 15),
+          //   child: FlatButton(
+          //     textColor: Colors.white,
+          //     highlightColor: MyColors.base_green_color_20,
+          //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+          //     splashColor: MyColors.base_green_color_20,
+          //     color: MyColors.base_green_color,
+          //     disabledColor: MyColors.base_green_color,
+          //     shape: CustomUiWidgets.basicGreenButtonShape(),
+          //     onPressed: () {
+          //       String pin = pinEditingController.text;
 
-                if (pin.length == 6) {
-                  _checkCodeAndGo(pin);
-                } else {
-                  CommonUtils.messageToast(context, "Enter correct code");
-                }
-              },
-              child: Text(
-                'Submit code',
-                style: TextStyle(fontSize: 20, color: Colors.white, fontFamily: 'Doomsday'),
-              ),
-            ),
-          ),
+          //       if (pin.length == 6) {
+          //         _checkCodeAndGo(pin);
+          //       } else {
+          //         CommonUtils.messageToast(context, "Enter correct code");
+          //       }
+          //     },
+          //     child: Text(
+          //       'Submit code',
+          //       style: TextStyle(fontSize: 20, color: Colors.white, fontFamily: 'Doomsday'),
+          //     ),
+          //   ),
+          // ),
+
           Container(
             alignment: Alignment.center,
             margin: EdgeInsets.fromLTRB(10, 25, 10, 0),

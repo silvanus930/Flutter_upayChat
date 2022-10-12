@@ -192,25 +192,25 @@ class AddUserProfileState extends State<AddUserProfile> with TickerProviderState
                 fontSize: 18,
               ),
 
-              Container(
-                margin: EdgeInsets.only(top: 15),
-                child: FlatButton(
-                  textColor: Colors.white,
-                  highlightColor: MyColors.base_green_color_20,
-                  padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-                  splashColor: MyColors.base_green_color_20,
-                  color: MyColors.base_green_color,
-                  disabledColor: MyColors.base_green_color,
-                  shape: CustomUiWidgets.basicGreenButtonShape(),
-                  onPressed: () {
-                    RegisterValidation.userNameValidation(context, userNameController, birthday, widget.map, _image);
-                  },
-                  child: Text(
-                    'Complete Registration',
-                    style: TextStyle(fontSize: 18, color: Colors.white, fontFamily: 'Doomsday'),
-                  ),
-                ),
-              ),
+              // Container(
+              //   margin: EdgeInsets.only(top: 15),
+              //   child: FlatButton(
+              //     textColor: Colors.white,
+              //     highlightColor: MyColors.base_green_color_20,
+              //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+              //     splashColor: MyColors.base_green_color_20,
+              //     color: MyColors.base_green_color,
+              //     disabledColor: MyColors.base_green_color,
+              //     shape: CustomUiWidgets.basicGreenButtonShape(),
+              //     onPressed: () {
+              //       RegisterValidation.userNameValidation(context, userNameController, birthday, widget.map, _image);
+              //     },
+              //     child: Text(
+              //       'Complete Registration',
+              //       style: TextStyle(fontSize: 18, color: Colors.white, fontFamily: 'Doomsday'),
+              //     ),
+              //   ),
+              // ),
             ],
           ),
         )
