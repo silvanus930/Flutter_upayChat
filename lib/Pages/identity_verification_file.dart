@@ -559,27 +559,28 @@ class IdentityVerificationFileState extends State<IdentityVerificationFile> {
                               ),
                             ),
                             SizedBox(height: 40),
-                            Container(
-                              width: double.infinity,
-                              child: FlatButton(
-                                textColor: Colors.white,
-                                highlightColor: MyColors.base_green_color_20,
-                                padding: EdgeInsets.only(top: 10, bottom: 10),
-                                splashColor: MyColors.base_green_color_20,
-                                color: MyColors.base_green_color,
-                                disabledColor: MyColors.base_green_color,
-                                shape: basicGreenButtonShape(),
-                                onPressed: confirmAddress,
-                                child: Text(
-                                  'Continue',
-                                  style: TextStyle(
-                                    fontFamily: 'Doomsday',
-                                    fontSize: 20,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-                            ),
+                            // Container(
+                            //   width: double.infinity,
+                            //   child: FlatButton(
+                            //     textColor: Colors.white,
+                            //     highlightColor: MyColors.base_green_color_20,
+                            //     padding: EdgeInsets.only(top: 10, bottom: 10),
+                            //     splashColor: MyColors.base_green_color_20,
+                            //     color: MyColors.base_green_color,
+                            //     disabledColor: MyColors.base_green_color,
+                            //     shape: basicGreenButtonShape(),
+                            //     onPressed: confirmAddress,
+                            //     child: Text(
+                            //       'Continue',
+                            //       style: TextStyle(
+                            //         fontFamily: 'Doomsday',
+                            //         fontSize: 20,
+                            //         color: Colors.white,
+                            //       ),
+                            //     ),
+                            //   ),
+                            // ),
+
                             SizedBox(height: 50),
                           ],
                         )
@@ -732,27 +733,28 @@ class IdentityVerificationFileState extends State<IdentityVerificationFile> {
                             SizedBox(height: _SPACING),
                             _file_selector(context, 3),
                             SizedBox(height: 40),
-                            Container(
-                              width: double.infinity,
-                              child: FlatButton(
-                                textColor: Colors.white,
-                                highlightColor: MyColors.base_green_color_20,
-                                padding: EdgeInsets.only(top: 10, bottom: 10),
-                                splashColor: MyColors.base_green_color_20,
-                                color: MyColors.base_green_color,
-                                disabledColor: MyColors.base_green_color,
-                                shape: basicGreenButtonShape(),
-                                onPressed: submitIdCard,
-                                child: Text(
-                                  'Submit',
-                                  style: TextStyle(
-                                    fontFamily: 'Doomsday',
-                                    fontSize: 20,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-                            ),
+                            // Container(
+                            //   width: double.infinity,
+                            //   child: FlatButton(
+                            //     textColor: Colors.white,
+                            //     highlightColor: MyColors.base_green_color_20,
+                            //     padding: EdgeInsets.only(top: 10, bottom: 10),
+                            //     splashColor: MyColors.base_green_color_20,
+                            //     color: MyColors.base_green_color,
+                            //     disabledColor: MyColors.base_green_color,
+                            //     shape: basicGreenButtonShape(),
+                            //     onPressed: submitIdCard,
+                            //     child: Text(
+                            //       'Submit',
+                            //       style: TextStyle(
+                            //         fontFamily: 'Doomsday',
+                            //         fontSize: 20,
+                            //         color: Colors.white,
+                            //       ),
+                            //     ),
+                            //   ),
+                            // ),
+
                             SizedBox(height: 50),
                           ],
                         ),

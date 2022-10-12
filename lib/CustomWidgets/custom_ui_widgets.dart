@@ -427,29 +427,29 @@ class CustomUiWidgets {
               color: MyColors.grey_color,
             ),
           ),
-          Container(
-            margin: EdgeInsets.only(top: 15),
-            child: FlatButton(
-              textColor: Colors.white,
-              highlightColor: MyColors.base_green_color_20,
-              padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-              splashColor: MyColors.base_green_color_20,
-              color: MyColors.base_green_color,
-              disabledColor: MyColors.base_green_color,
-              shape: basicGreenButtonShape(),
-              onPressed: () {
-                ChangePasswordValidation.changepassword(context, oldpassword, newpassword, confirmpassword);
-              },
-              child: Text(
-                'Change Password',
-                style: TextStyle(
-                  fontFamily: 'Doomsday',
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
-              ),
-            ),
-          ),
+          // Container(
+          //   margin: EdgeInsets.only(top: 15),
+          //   child: FlatButton(
+          //     textColor: Colors.white,
+          //     highlightColor: MyColors.base_green_color_20,
+          //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+          //     splashColor: MyColors.base_green_color_20,
+          //     color: MyColors.base_green_color,
+          //     disabledColor: MyColors.base_green_color,
+          //     shape: basicGreenButtonShape(),
+          //     onPressed: () {
+          //       ChangePasswordValidation.changepassword(context, oldpassword, newpassword, confirmpassword);
+          //     },
+          //     child: Text(
+          //       'Change Password',
+          //       style: TextStyle(
+          //         fontFamily: 'Doomsday',
+          //         fontSize: 20,
+          //         color: Colors.white,
+          //       ),
+          //     ),
+          //   ),
+          // ),
           Container(
             width: MediaQuery.of(context).size.width,
             alignment: Alignment.centerLeft,
@@ -639,33 +639,33 @@ class CustomUiWidgets {
               ],
             ),
           ),
-          Container(
-            width: double.infinity,
-            margin: EdgeInsets.only(left: 10, right: 10),
-            child: Container(
-              margin: EdgeInsets.only(top: 15),
-              child: FlatButton(
-                textColor: Colors.white,
-                highlightColor: MyColors.base_green_color_20,
-                padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-                splashColor: MyColors.base_green_color_20,
-                color: MyColors.base_green_color,
-                disabledColor: MyColors.base_green_color,
-                shape: basicGreenButtonShape(),
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text(
-                  'Done',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.white,
-                    fontFamily: 'Doomsday',
-                  ),
-                ),
-              ),
-            ),
-          ),
+          // Container(
+          //   width: double.infinity,
+          //   margin: EdgeInsets.only(left: 10, right: 10),
+          //   child: Container(
+          //     margin: EdgeInsets.only(top: 15),
+          //     child: FlatButton(
+          //       textColor: Colors.white,
+          //       highlightColor: MyColors.base_green_color_20,
+          //       padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+          //       splashColor: MyColors.base_green_color_20,
+          //       color: MyColors.base_green_color,
+          //       disabledColor: MyColors.base_green_color,
+          //       shape: basicGreenButtonShape(),
+          //       onPressed: () {
+          //         Navigator.pop(context);
+          //       },
+          //       child: Text(
+          //         'Done',
+          //         style: TextStyle(
+          //           fontSize: 18,
+          //           color: Colors.white,
+          //           fontFamily: 'Doomsday',
+          //         ),
+          //       ),
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );

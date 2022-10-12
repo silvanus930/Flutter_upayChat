@@ -104,23 +104,23 @@ class MobileNumberFileState extends State<MobileNumberFile> {
                   hintText: 'Mobile Number',
                 ),
               ),
-              Container(
-                margin: EdgeInsets.only(top: 15),
-                child: FlatButton(
-                  textColor: Colors.white,
-                  highlightColor: MyColors.base_green_color_20,
-                  padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-                  splashColor: MyColors.base_green_color_20,
-                  color: MyColors.base_green_color,
-                  disabledColor: MyColors.base_green_color,
-                  shape: CustomUiWidgets.basicGreenButtonShape(),
-                  onPressed: _sendVerifyCode,
-                  child: Text(
-                    'Continue',
-                    style: TextStyle(fontFamily: 'Doomsday', fontSize: 20, color: Colors.white),
-                  ),
-                ),
-              ),
+              // Container(
+              //   margin: EdgeInsets.only(top: 15),
+              //   child: FlatButton(
+              //     textColor: Colors.white,
+              //     highlightColor: MyColors.base_green_color_20,
+              //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+              //     splashColor: MyColors.base_green_color_20,
+              //     color: MyColors.base_green_color,
+              //     disabledColor: MyColors.base_green_color,
+              //     shape: CustomUiWidgets.basicGreenButtonShape(),
+              //     onPressed: _sendVerifyCode,
+              //     child: Text(
+              //       'Continue',
+              //       style: TextStyle(fontFamily: 'Doomsday', fontSize: 20, color: Colors.white),
+              //     ),
+              //   ),
+              // ),
             ],
           ),
         )

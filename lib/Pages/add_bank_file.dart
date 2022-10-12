@@ -198,26 +198,27 @@ class AddAddBankFile extends State<AddBankFile> {
                       textInputAction: TextInputAction.next,
                     ),
                   ),
-                  Container(
-                    width: double.infinity,
-                    margin: EdgeInsets.only(top: 30, left: 10, right: 10),
-                    child: FlatButton(
-                      textColor: Colors.white,
-                      highlightColor: MyColors.base_green_color_20,
-                      padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
-                      splashColor: MyColors.base_green_color_20,
-                      color: MyColors.base_green_color,
-                      disabledColor: MyColors.base_green_color,
-                      shape: CustomUiWidgets.basicGreenButtonShape(),
-                      onPressed: () {
-                        _validatefieldandaddorupdateaccount();
-                      },
-                      child: Text(
-                        status,
-                        style: TextStyle(fontSize: 20, color: Colors.white, fontFamily: 'Doomsday'),
-                      ),
-                    ),
-                  ),
+
+                  // Container(
+                  //   width: double.infinity,
+                  //   margin: EdgeInsets.only(top: 30, left: 10, right: 10),
+                  //   child: FlatButton(
+                  //     textColor: Colors.white,
+                  //     highlightColor: MyColors.base_green_color_20,
+                  //     padding: EdgeInsets.fromLTRB(60, 15, 60, 15),
+                  //     splashColor: MyColors.base_green_color_20,
+                  //     color: MyColors.base_green_color,
+                  //     disabledColor: MyColors.base_green_color,
+                  //     shape: CustomUiWidgets.basicGreenButtonShape(),
+                  //     onPressed: () {
+                  //       _validatefieldandaddorupdateaccount();
+                  //     },
+                  //     child: Text(
+                  //       status,
+                  //       style: TextStyle(fontSize: 20, color: Colors.white, fontFamily: 'Doomsday'),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               )),
             )),
