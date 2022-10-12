@@ -297,7 +297,7 @@ SPEC CHECKSUMS:
   FirebaseDatabase: 917fbeed577a68eb1ba0eb48c52a3aa10ac13f92
   FirebaseInstallations: caa7c8e0d3e2345b8829d2fa9ca1b4dfbf2fcc85
   FirebaseMessaging: ce0a5ee974f7bfe83b6cc5acce88c2d969e37c41
-  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   flutter_image_compress: fd2b476345226e1a10ea352fa306af95704642c1
   flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
   flutter_paystack: 50021637b71e7712780744f69d2843e71b65175d
@@ -328,6 +328,6 @@ SPEC CHECKSUMS:
   TOCropViewController: 3105367e808b7d3d886a74ff59bf4804e7d3ab38
   url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
 
-PODFILE CHECKSUM: 5375d565a8ecf3ce4e854b708ed9929866ed0dd4
+PODFILE CHECKSUM: 9a5d03a68b5c34e3d2b0a4fb068f3033c3c8a6da
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
